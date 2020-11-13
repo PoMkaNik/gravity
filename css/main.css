@@ -627,7 +627,11 @@ h3 {
   }
 
   .hero {
-    margin-top: 6rem;
+    margin-top: 3rem;
+  }
+
+  .problems {
+    margin-top: 40rem;
   }
 
   .collage img {
@@ -637,6 +641,10 @@ h3 {
 
   .works {
     padding-top: 20rem;
+  }
+
+  .work-tabs {
+    font-size: 1.6rem;
   }
 
   .works-wrap__item {
@@ -663,7 +671,6 @@ h3 {
 
 @media only screen and (max-width: 320px) {
   .problems {
-    margin-top: 40rem;
-    padding-top: 26rem;
+    padding-top: 30rem;
   }
 }
