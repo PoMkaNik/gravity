@@ -4,8 +4,9 @@ $(function () {
     margin: 30,
     nav: true,
     dots: false,
+    // autoWidth: true,
     navText: ['<img src="img/left.svg">', '<img src="img/right.svg">'],
-    startPosition: 1,
+    // startPosition: 1,
     responsive: {
       0: {
         items: 1,
@@ -14,7 +15,7 @@ $(function () {
         items: 1,
       },
       1000: {
-        items: 1,
+        items: 1.3,
       },
     },
   });
@@ -42,6 +43,7 @@ $(function () {
     margin: 0,
     nav: true,
     dots: false,
+    margin: 30,
     navText: ['<img src="img/left.svg">', '<img src="img/right.svg">'],
     // startPosition: 1,
     responsive: {
